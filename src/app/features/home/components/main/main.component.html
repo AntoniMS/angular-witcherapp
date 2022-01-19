@@ -1,0 +1,15 @@
+
+ <div  class="container" >
+    <ng-container *ngFor="let item of main">
+        <app-item [item]=item></app-item>
+    </ng-container>
+</div>
+
+
+<!-- <button (click)="changeImage()">Cambiar Imagen</button>
+div class="container" [ngClass]="{'container--img': isImage}"> -->
+<!-- <div class="container" [ngClass]="{'container--img': isImage}">
+    <ng-container *ngFor="let item of main">
+        <app-item [item]="item"></app-item>
+    </ng-container>
+</div> -->

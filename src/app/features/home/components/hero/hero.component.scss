@@ -1,0 +1,28 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ 
+
+  img {
+    padding: 20px;
+    width: 50%;
+    border-radius: 30px;
+  }
+  p {
+    line-height: 1.8;
+    margin:10px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius:49%;
+    background-color: rgba(51, 0, 0, 0.322);
+    color: #e7e7e7;
+    padding: 20px;
+    text-align: justify;
+    word-break: keep-all;
+    cursor: pointer;
+  }
+}
+

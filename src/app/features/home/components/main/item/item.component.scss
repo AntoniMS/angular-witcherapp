@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  flex-direction: wrap;
+  align-items: center;
+}
+
+.container {
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+
+  h3 {
+    font-size: 24px;
+    text-align: center;
+    background-color: rgba(102, 2, 2, 0.787);
+    border-radius: 10px;
+    color: rgb(255, 231, 122);
+    padding: 6px;
+  }
+  p {
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px;
+  }
+}
