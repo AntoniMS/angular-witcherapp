@@ -3,24 +3,26 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 13vh;
-  background-color: #bbb9b9;
+  height: 12vh;
+  background-color: #ffffffbd;
   margin-bottom: 10px;
   img {
     width: 70px;
     padding: 10px;
   }
   h1 {
-      font-size: 36px;
+    text-shadow: 2px 2px 10px rgb(49, 0, 0);
+    font-size: 26px;
+    font-weight: bold;
     text-transform: uppercase;
   }
 }
 
 .nav-name-container {
-    display: flex;
-    button {
-    font-family: 'Luxurious Roman', serif;;
-    height: 50px;
+  display: flex;
+  button {
+    font-family: "Luxurious Roman", serif;
+    height: 40px;
     background-color: rgb(32, 1, 1);
     color: rgb(223, 223, 223);
     margin: 15px;

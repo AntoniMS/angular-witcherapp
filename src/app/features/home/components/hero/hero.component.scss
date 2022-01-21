@@ -3,15 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
- 
-
   img {
     padding: 20px;
     width: 50%;
     border-radius: 30px;
   }
   p {
+    text-shadow: 3px 3px 10px rgb(160, 159, 159);
     line-height: 1.8;
     margin:10px;
     font-weight: bold;
@@ -22,7 +20,12 @@
     padding: 20px;
     text-align: justify;
     word-break: keep-all;
+    transition: 1s;
     cursor: pointer;
+  }
+  p:hover {
+    transition: 1s;
+    color: #fdeea9;
   }
 }
 

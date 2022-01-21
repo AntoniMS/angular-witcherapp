@@ -24,7 +24,7 @@ import { ItemComponent } from './features/home/components/main/item/item.compone
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

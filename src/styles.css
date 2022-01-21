@@ -1,6 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman:wght@300;400;700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +15,7 @@ body {
 
 @media (min-width: 480px) {
   body {
-    background-color: rgb(41, 41, 41);
+    background-color: #292929;
   }
 }
+/*# sourceMappingURL=styles.css.map */
