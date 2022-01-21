@@ -1,5 +1,4 @@
 .gallery {
-  width: 100%;
   text-align: center;
   margin-bottom: 10px;
   h2 {
@@ -8,16 +7,30 @@
   }
 
   img {
-    height: 210px;
+    height: 265px;
     border: 3px solid rgba(95, 95, 95, 0);
     transition: 0.5s;
     cursor: pointer;
   }
 
   img:hover {
-    height: 222px;
+    height: 286px;
     filter: saturate(160%);
     transition: 0.5s;
   }
 }
 
+@media only screen and (max-width: 600px) {
+  img {
+    height: 150px;
+    border: 3px solid rgba(95, 95, 95, 0);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  img:hover {
+    height: 190px;
+    filter: saturate(160%);
+    transition: 0.5s;
+  }
+}

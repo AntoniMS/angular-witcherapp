@@ -8,14 +8,19 @@
     width: 50%;
     border-radius: 30px;
   }
+
+  .paragraph {
+    width: 85%;
+    padding: 20px;
+  }
   p {
     text-shadow: 3px 3px 10px rgb(160, 159, 159);
     line-height: 1.8;
-    margin:10px;
+    margin: 10px;
     font-weight: bold;
     font-size: 25px;
-    border-radius:49%;
-    background-color: rgba(51, 0, 0, 0.322);
+    border-radius: 49%;
+    background-color: rgba(34, 0, 0, 0.246);
     color: #e7e7e7;
     padding: 20px;
     text-align: justify;
@@ -24,8 +29,14 @@
     cursor: pointer;
   }
   p:hover {
+    background-color: rgba(92, 0, 0, 0.486);
     transition: 1s;
     color: #fdeea9;
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .paragraph {
+    width: 98%;
+  }
+}
